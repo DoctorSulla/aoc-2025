@@ -1,3 +1,4 @@
+use aoc2025::day_five::*;
 use aoc2025::day_four::*;
 use aoc2025::day_one::*;
 use aoc2025::day_three::*;
@@ -29,5 +30,15 @@ fn main() {
     println!(
         "Day 4 Part 1 answer: {}",
         get_accessible_rolls("./inputs/d4.txt")
+    );
+
+    println!(
+        "Day 4 Part 2 answer: {}",
+        get_rolls_repeatedly("./inputs/d4.txt")
+    );
+
+    println!(
+        "Day 5 Part 1 answer: {}",
+        check_ingredients("./inputs/d5.txt")
     );
 }
