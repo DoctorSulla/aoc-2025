@@ -41,4 +41,9 @@ fn main() {
         "Day 5 Part 1 answer: {}",
         check_ingredients("./inputs/d5.txt")
     );
+
+    println!(
+        "Day 5 Part 2 answer: {}",
+        get_fresh_ranges("./inputs/d5.txt")
+    );
 }
